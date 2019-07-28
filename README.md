@@ -6,6 +6,8 @@ using services like Air (Flight search and Inteliigence), Hotel (Hotel search an
 Destination(Poinst of interest). You can get started in minutes by installing the SDK 
 through Composer or by downloading a single zip or phar file from our latest release.
 
+Inspired by the simple API wrapper provided by dahabtours GmbH 
+
 ## Features
 
 * Provides easy-to-use HTTP clients for all supported Amadeus
