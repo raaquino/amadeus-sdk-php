@@ -1,0 +1,26 @@
+{  
+	"name": "raaquino/amadeus-sdk-php",  
+	"description": "Amadeus SDK for PHP - Use Amadeus Web Services in your PHP project",  
+	"license": "MIT",  
+	"keywords": ["amadeus","php","sdk"],  
+	"type" : "library",
+	"authors": [  
+		{  
+		"name": "Roldan Aquino",  
+		"email": "raaquino@gmail.com"  
+		}  
+	],  
+	"require": {
+		"php": ">=5.5",
+		"guzzlehttp/guzzle": "^5.3.3|^6.2.1",
+        "guzzlehttp/psr7": "^1.4.1"
+	},  
+	"require-dev": {  
+		"phpunit/phpunit": "4.0.*"  
+	},  
+	"autoload": {  
+		"psr-4": {  
+			"Amadeus\\": "src/" 
+		}  
+	}  
+}  
